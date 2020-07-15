@@ -7,12 +7,15 @@ html{
 
 }
 
-.country {
-    background-color: cadetblue;
-}
-
-.acountry {
-    background-color: green;
+#country {
+        align-items: center;
+        width: 300px;
+        height: 30px;
+        border: 1px solid #999;
+        font-size: 18px;
+        color: #1c87c9;
+        background-color: #eee;
+        border-radius: 5px;
 }
 
 
@@ -29,7 +32,7 @@ html{
 .clockbox,
 #clock {
     width: 100%;
-    
+
 }
 
 /* Clock styles */
@@ -39,7 +42,7 @@ html{
     stroke-width: 9;
     stroke-miterlimit: 10;
 
-   
+
 }
 
 .mid-circle {
@@ -86,4 +89,3 @@ html{
     transform-origin: 300px 300px;
     /* transition: transform .5s ease-in-out; */
 }
-
