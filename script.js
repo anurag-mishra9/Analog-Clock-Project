@@ -12,7 +12,7 @@ Timezone.classList.add("main");
 Time.innerHTML = "Current Time is "+ date.toLocaleString() +"";
 Time.classList.add("main");
 
-fetch ('http://worldtimeapi.org/api/timezone')
+fetch ('https://worldtimeapi.org/api/timezone')
 .then((response)=>{
 console.log(response);
 return response.json();
